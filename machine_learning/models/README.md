@@ -1,6 +1,6 @@
 # MEGNet Models
 
-Our kL\_min MEGNet model is `megnet.hdf5`. The formation energy model `formation_energy.hdf5` is from the original MEGNet paper [1], and the initial atom embeddings are frozen and then used when training our model.
+Our kL\_min MEGNet model is `model.hdf5`. The formation energy model `formation_energy.hdf5` is from the original MEGNet paper [1], and the initial atom embeddings are frozen and then used when training our model.
 
 References:
 
