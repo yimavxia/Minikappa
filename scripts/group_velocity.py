@@ -185,7 +185,11 @@ class GroupVelocity(object):
     def get_group_velocity(self):
         return self.group_velocities
 
-    def _calculate_group_velocity_at_q_xy(self, q):        
+    def _calculate_group_velocity_at_q_xy(self, q):
+        '''
+        @yixia
+        added and modified method to compute off-diagonal group velocities
+        '''
         self._dynmat.run(q)
         dm = self._dynmat.dynamical_matrix
         eigvals, eigvecs = np.linalg.eigh(dm)
@@ -227,17 +231,7 @@ class GroupVelocity(object):
         deg_sets = degenerate_sets(freqs)
 
         ddms = self._get_dD(np.array(q))
-        pos = 0
-        if False:
-            print ("frequencies: ")
-            print (freqs)
-            print ("deg_sets: ")
-            print (deg_sets)
-            print ("ddms: ")
-            print (type(ddms))
-            print (len(ddms))
-            print (len(ddms[0]))
-            print (ddms)
+        pos = 0       
         for deg in deg_sets:
             if False:
                 gv[pos:pos+len(deg)] = self._perturb_D(ddms, eigvecs[:, deg])
