@@ -1,4 +1,4 @@
-# Python Script for Computing Minimum Lattice Thermal Conductivity
+# Python Scripts for Computing Minimum Lattice Thermal Conductivity
 
 Here, we include:
 
