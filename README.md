@@ -8,6 +8,8 @@ Brief introduction: https://www.growkudos.com/publications/10.1073%25252Fpnas.23
 
 Northwestern news: https://www.mccormick.northwestern.edu/news/articles/2023/06/moving-closer-to-efficiently-using-earths-power/
 
+Yale news: https://seas.yale.edu/news-events/news/conductivity-becomes-crystal-clear-new-study
+
 Arxiv preprint: https://arxiv.org/abs/2306.11917
 
 PNAS website: https://www.pnas.org/doi/10.1073/pnas.2302541120
